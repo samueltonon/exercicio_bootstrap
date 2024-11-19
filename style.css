@@ -59,10 +59,17 @@ textarea {
 footer {
     align-items: center;
     text-align: center;
-    padding: 16px 0;
-    margin-top: 8px;
+    margin-top: 16px;
     font-style: italic;
     color: #ccc;
+}
+
+.form-check,
+button {
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 @media screen and (max-width: 768px) {
